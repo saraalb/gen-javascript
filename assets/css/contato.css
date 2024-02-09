@@ -1,0 +1,199 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Estilo da navegação */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    width: 50px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/* Estilo do rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px; /* Reduzindo o padding */
+    text-align: center;
+}
+
+footer div {
+    margin-bottom: 10px;
+}
+
+footer div a {
+    margin-right: 10px;
+}
+
+footer div a:last-child {
+    margin-right: 0;
+}
+
+footer p {
+    margin-top: 10px;
+}
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Estilo da navegação */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    width: 50px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Estilo do formulário */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+.campos-form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+
+  /* Estilo do formulário */
+main {
+    display: flex; /* Adicionando flexbox */
+    justify-content: space-between; /* Alinhamento dos elementos à esquerda e à direita */
+    padding: 20px;
+}
+
+section {
+    flex: 0 0 48%; /* Definindo a largura de cada seção */
+}
+
+#formulario_buscacep {
+    flex: 0 0 48%; /* Definindo a largura da seção Consultar CEP */
+}
+
+#formulario_buscacep > div {
+    height: 100%; /* Ocupar toda a altura da seção Consultar CEP */
+}
+
+#formulario_buscacep > div > div {
+    margin-bottom: 10px; /* Adicionando um espaçamento entre os elementos */
+}
+
+#formulario_buscacep > div > button {
+    margin-top: 10px; /* Adicionando um espaçamento acima do botão */
+}
+
+#formulario_buscacep > div > hr {
+    margin: 10px 0; /* Adicionando um espaçamento ao redor da linha horizontal */
+}
+
+#formulario_buscacep textarea {
+    height: calc(100% - 80px); /* Calculando a altura da textarea para ocupar o restante do espaço disponível */
+}
+
